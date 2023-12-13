@@ -4,17 +4,17 @@
     <!--begin::Row-->
     <div class="d-flex flex-column-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
+            {{-- <div class="row">
+                <div class="col-lg-4"> --}}
                     <!--begin::Mixed Widget 14-->
-                    <div class="card card-custom card-stretch gutter-b">
+                    {{-- <div class="card card-custom card-stretch gutter-b">
                         <!--begin::Header-->
                         <div class="card-header border-0 pt-5">
                             <h3 class="card-title font-weight-bolder">Statistik Pengunjung</h3>
-                        </div>
+                        </div> --}}
                         <!--end::Header-->
                         <!--begin::Body-->
-                        <div class="card-body d-flex flex-column">
+                        {{-- <div class="card-body d-flex flex-column">
                             <div class="flex-grow-1">
                                 <div id="kt_mixed_widget_14_chart" style="height: 250px"></div>
                             </div>
@@ -24,12 +24,12 @@
                                         class="btn btn-success btn-shadow-hover font-weight-bolder w-100 py-3">Cek
                                         Detail</a>
                             </div>
-                        </div>
+                        </div> --}}
                         <!--end::Body-->
-                    </div>
+                    {{-- </div> --}}
                     <!--end::Mixed Widget 14-->
-                </div>
-                <div class="col-lg-8">
+                {{-- </div> --}}
+                <div class="col">
                     <!--begin::Advance Table Widget 4-->
                     <div class="card card-custom card-stretch gutter-b">
                         <!--begin::Header-->

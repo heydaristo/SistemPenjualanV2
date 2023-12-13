@@ -171,11 +171,11 @@
                                                                             <label> ID Cabang </label>
                                                                             <select class="custom-select form-control"
                                                                                 name="id_cabang" id="id_cabang">
-                                                                                <option selected="selected">
+                                                                                {{-- <option selected="selected" disabled>
                                                                                     Pilih Cabang
-                                                                                </option>
+                                                                                </option> --}}
                                                                                 @foreach ($cabang as $ab)
-                                                                                    <option value="{{ $ab->id_cabang }}"
+                                                                                    <option value="{{ $ab->id_cabang ?? 'Cabang Tidak ditemukan'}}"
                                                                                         {{ $ab->id == $a->id_cabang ? 'selected' : '' }}>
                                                                                         {{ $ab->nama_cabang }} -
                                                                                         {{ $ab->alamat }}

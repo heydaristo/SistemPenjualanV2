@@ -99,7 +99,7 @@
                     </a> --}}
                     <!--end::Logo-->
                     <!--begin::Toggle-->
-                    <button class="brand-toggle btn btn-sm px-0" id="kt_aside_toggle">
+                    <button class="brand-toggle btn btn-sm px-0 mt-5" id="kt_aside_toggle">
                         <span class="svg-icon svg-icon svg-icon-xl">
                             <!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Angle-double-left.svg-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -118,6 +118,7 @@
                             </svg>
                             <!--end::Svg Icon-->
                         </span>
+                        
                     </button>
                     <!--end::Toolbar-->
                 </div>
@@ -328,7 +329,7 @@
 
                                                 </a>
                                             </li>
-                                            <li class="menu-item" aria-haspopup="true">
+                                            {{-- <li class="menu-item" aria-haspopup="true">
                                                 <a href="/laporan" class="menu-link">
                                                     <i class="menu-bullet menu-bullet-dot">
                                                         <span></span>
@@ -336,7 +337,7 @@
                                                     <span class="menu-text">Laporan</span>
 
                                                 </a>
-                                            </li>
+                                            </li> --}}
 
 
                                         </ul>
@@ -461,18 +462,18 @@
                         class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
                         <!--begin::Copyright-->
                         <div class="text-dark order-2 order-md-1">
-                            <span class="text-muted font-weight-bold mr-2">2020©</span>
-                            <a href="http://keenthemes.com/metronic" target="_blank"
-                                class="text-dark-75 text-hover-primary">Keenthemes</a>
+                            <span class="text-muted font-weight-bold mr-2">2023©</span>
+                            <a href="http://github.com/heydaristo" target="_blank"
+                                class="text-dark-75 text-hover-primary">Heydaristo</a>
                         </div>
                         <!--end::Copyright-->
                         <!--begin::Nav-->
                         <div class="nav nav-dark">
-                            <a href="http://keenthemes.com/metronic" target="_blank"
+                            <a href="http://github.com/heydaristo" tvarget="_blank"
                                 class="nav-link pl-0 pr-5">About</a>
-                            <a href="http://keenthemes.com/metronic" target="_blank"
+                            <a href="http://github.com/heydaristo" target="_blank"
                                 class="nav-link pl-0 pr-5">Team</a>
-                            <a href="http://keenthemes.com/metronic" target="_blank"
+                            <a href="http://github.com/heydaristo" target="_blank"
                                 class="nav-link pl-0 pr-0">Contact</a>
                         </div>
                         <!--end::Nav-->

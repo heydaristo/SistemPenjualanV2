@@ -306,13 +306,12 @@
                                                                                         Pilih Cabang
                                                                                     </option>
                                                                                     @foreach ($cabang as $ab)
-                                                                                        <option
-                                                                                            value="{{ $ab->id }}"
-                                                                                            {{ $ab->id == $a->id_cabang ? 'selected' : '' }}>
-                                                                                            {{ $ab->nama_cabang }} -
-                                                                                            {{ $ab->alamat }}
-                                                                                        </option>
-                                                                                    @endforeach
+                                                                                    <option value="{{ $ab->id_cabang ?? 'Cabang Tidak ditemukan'}}"
+                                                                                        {{ $ab->id == $a->id_cabang ? 'selected' : '' }}>
+                                                                                        {{ $ab->nama_cabang }} -
+                                                                                        {{ $ab->alamat }}
+                                                                                    </option>
+                                                                                @endforeach
                                                                                 </select>
 
                                                                             </div>

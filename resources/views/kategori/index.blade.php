@@ -161,7 +161,7 @@
                                                     <div class="form-group">
                                                         <label>Nama Kategori</label>
                                                         <input type="text" class="form-control"
-                                                            placeholder="Nama Barang" name="nama_kategori"
+                                                            placeholder="Nama Kategori" name="nama_kategori"
                                                             id="nama_kategori" required />
                                                     </div>
                                                 </div>

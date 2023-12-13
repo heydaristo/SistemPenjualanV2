@@ -158,7 +158,7 @@
                                 readonly value="{{ $id_cabang }}" name="id_cabang" id="id_cabang" hidden />
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="form-group">
                             <label>Kasir<span class="text-danger">*</span></label>
                             <input type="text" class="form-control form-control-solid" placeholder="Generate Otomatis"
