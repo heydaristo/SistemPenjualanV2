@@ -28,7 +28,7 @@
                     <div class="col-md-12">
                         <div class="card-body">
                             <!--begin: Datatable-->
-                            <div class="table-responsive text-nowrap" style="width: 710px">
+                            <div class="table-responsive text-nowrap" >
                                 <table class="table table-bordered table-hover table-checkable table-responsive"
                                     id="data_order" style="margin-top: 13px !important, margin-right:13px;">
                                     <thead>
